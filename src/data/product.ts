@@ -1,16 +1,16 @@
 export default {
   id: '5',
-  title: "Logitech MX Master 3 Advanced Wireless Mouse for Mac - Bluetooth/USB",
-  description: `Features & details
-  - MAGSPEED WHEEL: Ultra-fast, precise, quiet MagSpeed electromagnetic scrolling
-  - DARKFIELD 4000 DPI SENSOR: Darkfield 4000 DPI sensor for precise tracking on any surface, even glass (up to 4mm in thickness)
-  - COMFORTABLE DESIGN: Tactile reference for hand positioning makes it easy to stay oriented and in your flow
-  - FLOW CROSS-COMPUTER CONTROL: Supports flow cross-computer control across multiple screens. Pair up to 3 devices via Bluetooth Low Energy or Unifying USB receiver`,
-  image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/mouse1.jpg',
+  title: "Bole Wolosefer, apartment for rent, 3 bed rooms, Addis Ababa",
+  description: `Bole Wolosefer, apartment for rent, 3 bed rooms, Addis Ababa.
+
+  The apartment building is located in safe residential area and the flat has living and dinning room, kitchen, master bed room with it’s own walk-in closet and Jacuzzi bathroom, two bed rooms with common bathroom, maid room with shower, guest toilet, and garage for one car.
+  
+  The rate is 4,000 USD per month and negotiable.`,
+  image: 'https://www.realethio.com/wp-content/uploads/2020/12/IMG_9940-3.jpg',
   images: [
-    'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/mouse1.jpg',
-    'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/mouse2.jpg',
-    'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/mouse3.jpg',
+    'https://www.realethio.com/wp-content/uploads/2020/12/IMG_9946.jpg',
+    'https://www.realethio.com/wp-content/uploads/2020/12/IMG_9960-2.jpg',
+    'https://www.realethio.com/wp-content/uploads/2020/12/IMG_9967-3.jpg',
   ],
   options: [
     'Black',

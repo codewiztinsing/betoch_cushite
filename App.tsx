@@ -33,9 +33,6 @@ const App = () => {
     <ScrollView>
     <SafeAreaView>
       <HomeScreen />
-      <HomeScreen />
-      <HomeScreen />
-      <HomeScreen />
     </SafeAreaView>
     </ScrollView>
   );

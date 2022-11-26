@@ -1,8 +1,8 @@
 export default [
   {
     id: '1',
-    title: "Clean Architecture: A Craftsman's Guide to Software Structure and Design",
-    image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/cleanarchitecture.jpg',
+    title: "Bole Wolosefer, apartment for rent, 3 bed rooms, Addis Ababa",
+    image: 'https://www.realethio.com/wp-content/uploads/2020/12/IMG_9940-3.jpg',
     avgRating: 4.2,
     ratings: 1325,
     price: 20.98,
