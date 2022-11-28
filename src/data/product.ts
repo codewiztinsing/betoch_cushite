@@ -13,8 +13,9 @@ export default {
     'https://www.realethio.com/wp-content/uploads/2020/12/IMG_9967-3.jpg',
   ],
   options: [
-    'Black',
-    'Space Grey'
+    'For Sale',
+    'For Rent',
+    'Guest House'
   ],
   avgRating: 4.8,
   ratings: 2989,
