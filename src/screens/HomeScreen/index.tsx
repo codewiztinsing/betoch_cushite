@@ -9,6 +9,7 @@ function HomeScreen() {
     return (
         <View style = {styles.pages}>
             <FlatList 
+            showsVerticalScrollIndicator={false}
             data={products}
             keyExtractor={(item) => item.id}
             renderItem={({item}) => <ProductItem item={item}

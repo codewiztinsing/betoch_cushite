@@ -33,7 +33,7 @@ function ProductItem({item}:ProductItemProps) {
                     {
                     [0,0,0,0,0].map((it,i) =>
                      <FontAwesome
-                     key={`${it  - i}`} 
+                     key={`${Number.parseInt(item.id)  - i}`} 
                      style = {styles.star} name={i < Math.floor(item.avgRating) ? "star":"star-o"} size={18} color="#C4A000"/>
 
                     )}

@@ -2,7 +2,8 @@ export default [
   {
     id: '1',
     title: "Bole Wolosefer, apartment for rent, 3 bed rooms, Addis Ababa",
-    image: 'https://whc.unesco.org/uploads/thumbs/site_0018_0016-1200-630-20151104173458.jpg',
+    // image: 'https://whc.unesco.org/uploads/thumbs/site_0018_0016-1200-630-20151104173458.jpg',
+    image:require('../../assets/lellibella.jpg'),
     avgRating: 2.2,
     ratings: 135,
     price: 20245245.98,
@@ -10,7 +11,7 @@ export default [
   },
   {
     id: '2',
-    title: "Clean Code: A Handbook of Agile Software Craftsmanship",
+    title: "Bole Arabas new home for you",
     image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/cleancode.jpg',
     avgRating: 4.8,
     ratings: 2989,
@@ -19,7 +20,7 @@ export default [
   },
   {
     id: '3',
-    title: "New 2021 Imac",
+    title: "Apartma for rend around Finfine circle",
     image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/imac1.jpg',
     avgRating: 3.8,
     ratings: 2989,
@@ -27,7 +28,7 @@ export default [
   },
   {
     id: '4',
-    title: "Havit Mechanical Keyboard Wired 89 Keys Gaming Keyboard Red Switch Keyboard with PBT Keycaps for PC Gamer",
+    title: "Villa for sale around Arat kilo",
     image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/keyboard1.jpg',
     avgRating: 4.8,
     ratings: 2989,
@@ -36,7 +37,7 @@ export default [
   },
   {
     id: '5',
-    title: "Havit Mechanical Keyboard Wired 89 Keys Gaming Keyboard Red Switch Keyboard with PBT Keycaps for PC Gamer",
+    title: "Hayat realstate for sell",
     image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/keyboard2.jpg',
     avgRating: 4.8,
     ratings: 2989,
@@ -45,7 +46,7 @@ export default [
   },
   {
     id: '6',
-    title: "Mouse Havit Mechanical Keyboard Wired 89 Keys Gaming Keyboard",
+    title: "Realstate for sell around  Jamo",
     image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/mouse1.jpg',
     avgRating: 4.8,
     ratings: 2989,
@@ -54,7 +55,7 @@ export default [
   },
   {
     id: '7',
-    title: "Mouse Havit Mechanical Keyboard Wired 89 Keys Gaming Keyboard",
+    title: "Jamo realstate for rent",
     image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/mouse2.jpg',
     avgRating: 4.8,
     ratings: 2989,

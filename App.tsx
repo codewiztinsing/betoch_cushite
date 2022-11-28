@@ -20,6 +20,8 @@ import {
   ReloadInstructions, 
 } from 'react-native/Libraries/NewAppScreen';
 import HomeScreen from './src/screens/HomeScreen';
+import ProductScreen from './src/screens/ProductScreen';
+import product from './src/data/product';
 
 
 const App = () => {
@@ -30,11 +32,12 @@ const App = () => {
   };
 
   return (
-    <ScrollView>
+
     <SafeAreaView>
-      <HomeScreen />
+      {/* <HomeScreen /> */}
+      <ProductScreen product={product}/>
     </SafeAreaView>
-    </ScrollView>
+  
   );
 };
 
