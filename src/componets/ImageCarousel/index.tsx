@@ -1,0 +1,14 @@
+import { StyleSheet, Text, View } from 'react-native'
+import React from 'react'
+
+const ImageCarousel = () => {
+  return (
+    <View>
+      <Text>Image Carousel</Text>
+    </View>
+  )
+}
+
+export default ImageCarousel
+
+const styles = StyleSheet.create({})

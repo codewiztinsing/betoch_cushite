@@ -1,6 +1,7 @@
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
+
     title:{
         
     },
@@ -16,7 +17,10 @@ const styles = StyleSheet.create({
       description:{
         fontSize:18,
         color:"#696969",
-      }
+        lineHeight:20,
+        marginVertical:20
+      },
+      price:{}
 })
 
 
