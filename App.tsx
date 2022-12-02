@@ -15,7 +15,8 @@ import {
 
 import Navigation from './auth';
 import ProductScreen from './src/screens/ProductScreen';
-import MyDrawer from './auth/drawer';
+
+import LoginScreen from './auth/screens/LoginScreen';
 
 
 
@@ -27,7 +28,7 @@ const App = () => {
 
   return (
 
-   <Navigation />
+   <LoginScreen />
      
      
     
