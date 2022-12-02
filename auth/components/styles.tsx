@@ -1,4 +1,4 @@
-import { StatusBar, View,Text,Image ,TextInput,TouchableOpacity} from 'react-native';
+import { StatusBar, View,ScrollView,Text,Image ,TextInput,TouchableOpacity} from 'react-native';
 import styled from 'styled-components';
 
 
@@ -19,7 +19,7 @@ export const Colors = {
 
 const {primary,secondary,tertiary,brand,darklight,green,red} = Colors;
 
-export const Container = styled.View`
+export const Container = styled.ScrollView`
 flex:1;
 padding:25px;
 padding-top:20px;
@@ -34,7 +34,7 @@ align-items:center;
 
 export const BetochLogo = styled.Image`
 width:250px;
-height:200px;
+height:100px;
 `
 
 
@@ -57,7 +57,7 @@ color:${tertiary}
 
 
 export const FormAreaView = styled.View`
-width:90%ch
+width:90%;
 `
 
 
@@ -95,10 +95,11 @@ right:15px;
 top:38px;
 `
 
-export const Button = styled.TouchableOpacity`
+export const StyledButton = styled.TouchableOpacity`
 padding:15px;
 background-color:${brand};
 justify-contetn:center;
+align-items:center;
 border-radius:5px;
 margin-vertical:5px;
 height:60px;
@@ -107,6 +108,16 @@ height:60px;
 export const ButtonText = styled.Text`
 color:${primary};
 font-size:16px;
+`
 
+export const MsgBox = styled.Text`
+text-align:center;
+font-size:13px;
+`
 
+export const Line = styled.View`
+height:1px;
+widht:100%;
+background-color:${darklight};
+margin-vertical:10px;
 `
