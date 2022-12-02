@@ -1,11 +1,13 @@
 import React from 'react'
 import { Image, StyleSheet, Text, View,FlatList } from 'react-native'
+import { useNavigation } from '@react-navigation/native';
 import ProductItem from '../../componets/ProductItem'
 import products from '../../data/products'
 
 const logo = require("assets/lellibella.jpg")
 
-function HomeScreen() {
+function HomeScreen({navigation}) {
+
     return (
         <View style = {styles.pages}>
             <FlatList 

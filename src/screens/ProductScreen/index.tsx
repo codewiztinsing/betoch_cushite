@@ -1,50 +1,59 @@
-import { View, Text, StyleSheet, ScrollViewBase, ScrollView } from 'react-native'
+import { View, Text, StyleSheet, ScrollView } from 'react-native'
 import { Picker } from '@react-native-picker/picker';
 import React, { useState } from 'react'
 import styles from './styles'
 import QuantitySelector from '../../componets/ProductItem/Quantity';
 import Button from '../../componets/Buttons';
 import ImageCarousel from '../../componets/ImageCarousel';
+import { useNavigation } from '@react-navigation/native';
+import { useRoute } from '@react-navigation/native';
+import product from '../../data/product';
 
 
-const ProductScreen = ({ product }) => {
-  const [selectedValue, setSelectedValue] = useState(product.options[0])
+const ProductScreen = () => {
+  const route = useRoute()
+  const navigation = useNavigation()
+  const item = product
+  console.log(item);
+  
+
+  const [selectedValue, setSelectedValue] = useState(item.options[0])
   const [quantity, setQuantity] = useState(0)
-  console.log(selectedValue);
+
 
   return (
-    <ScrollView >
+    <ScrollView style={styles.root}>
       {/* title for house */}
-      <Text>{product.title}</Text>
+      <Text style={styles.title}>{item.title}</Text>
 
       {/* image carousel to show list of house images */}
-      <ImageCarousel />
+      <ImageCarousel images={item.images}/>
 
-      
+
       {/* picker for rend or buy */}
       <View style={styles.card}>
         <Picker
           selectedValue={selectedValue}
           onValueChange={(option, optionIndex) => { setSelectedValue(option) }}
         >
-          {product.options.map((option, index) => <Picker.Item key={index} label={option} value={option} />)}
+          {item.options.map((option, index) => <Picker.Item key={index} label={option} value={option} />)}
 
         </Picker>
       </View>
 
-      <View>
-        <Text>{product.price}</Text>
-      </View>
+    
+        <Text style={styles.price}>${item.price}million</Text>
+    
 
       <View style={styles.description}>
-        <Text>{product.description}</Text>
+        <Text>{item.description}</Text>
       </View>
       {/* quantity selector m */}
-      <QuantitySelector quantity={quantity} setQuantity={setQuantity} />
+      {/* <QuantitySelector quantity={quantity} setQuantity={setQuantity} /> */}
 
       {/* buttons for buying and renting house */}
-      <Button text="Buy House" handler={() => console.log("buy the house")}/>
-      <Button text="Rent House" handler={() => console.log("rent the house")}/>
+      <Button text="Buy House" handler={() => navigation.navigate("Payment")}/>
+      <Button text="Rent House" handler={() => navigation.navigate("Payment")}/>
     </ScrollView>
   )
 }

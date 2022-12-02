@@ -1,5 +1,6 @@
+import { useNavigation, useRoute } from '@react-navigation/native';
 import React from 'react'
-import { Image, Text, View } from 'react-native'
+import { Image, Text, View,TouchableOpacity } from 'react-native'
 import FontAwesome from "react-native-vector-icons/FontAwesome";
 import styles from './styles'
 
@@ -18,13 +19,15 @@ interface ProductItemProps {
 };
 
 function ProductItem({item}:ProductItemProps) {
+
+  const navigation = useNavigation();
+ 
     
   return (
-    <View>
+    <TouchableOpacity onPress={() =>  navigation.navigate("Product",{'item':item})
+    }>
           <View style = {styles.root}>
-                <Image style = {styles.image} source={{
-                    uri:item.image
-                    }} />
+                <Image style = {styles.image} source={item.image} />
 
             <View style = {styles.rightContainer}>
                 <Text style = {styles.title}numberOfLines = {3}>{item.title}</Text>
@@ -54,7 +57,7 @@ function ProductItem({item}:ProductItemProps) {
             </View>
 
             </View>
-    </View>
+    </TouchableOpacity>
   )
 }
 

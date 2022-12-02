@@ -1,8 +1,16 @@
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
+    root:{
+      margin:10
+
+    },
 
     title:{
+      fontSize:22,
+      fontWeight:"bold",
+      fontFamily:"sans serif",
+      color:"black"
         
     },
     card:{
@@ -20,7 +28,13 @@ const styles = StyleSheet.create({
         lineHeight:20,
         marginVertical:20
       },
-      price:{}
+      price:{
+        fontSize:22,
+        fontWeight:"bold",
+        fontFamily:"sans serif",
+        color:"black"
+
+      }
 })
 
 

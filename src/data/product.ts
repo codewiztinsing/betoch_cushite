@@ -6,9 +6,13 @@ export default {
   The rate is 4,000 USD per month and negotiable.`,
   image: 'https://www.realethio.com/wp-content/uploads/2020/12/IMG_9940-3.jpg',
   images: [
-    'https://www.realethio.com/wp-content/uploads/2020/12/IMG_9946.jpg',
-    'https://www.realethio.com/wp-content/uploads/2020/12/IMG_9960-2.jpg',
-    'https://www.realethio.com/wp-content/uploads/2020/12/IMG_9967-3.jpg',
+    require('/home/tinsae/Desktop/Betoch/assets/lellibella.jpg'),
+    require('/home/tinsae/Desktop/Betoch/assets/lellibella.jpg'),
+    require('/home/tinsae/Desktop/Betoch/assets/lellibella.jpg'),
+    require('/home/tinsae/Desktop/Betoch/assets/lellibella.jpg'),
+    require('/home/tinsae/Desktop/Betoch/assets/lellibella.jpg'),
+    require('/home/tinsae/Desktop/Betoch/assets/lellibella.jpg')
+   
   ],
   options: [
     'For Sale',

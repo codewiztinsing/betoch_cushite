@@ -1,65 +1,81 @@
 export default [
   {
-    id: '1',
-    title: "Bole Wolosefer, apartment for rent, 3 bed rooms, Addis Ababa",
-    // image: 'https://whc.unesco.org/uploads/thumbs/site_0018_0016-1200-630-20151104173458.jpg',
-    image:require('../../assets/lellibella.jpg'),
-    avgRating: 2.2,
-    ratings: 135,
-    price: 20245245.98,
-    oldPrice: 24.06,
-  },
-  {
-    id: '2',
-    title: "Bole Arabas new home for you",
-    image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/cleancode.jpg',
-    avgRating: 4.8,
-    ratings: 2989,
-    price: 32323.98,
-    oldPrice: 34.06,
-  },
-  {
-    id: '3',
-    title: "Apartma for rend around Finfine circle",
-    image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/imac1.jpg',
-    avgRating: 3.8,
-    ratings: 2989,
-    price: 42064.9,
-  },
-  {
-    id: '4',
-    title: "Villa for sale around Arat kilo",
-    image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/keyboard1.jpg',
-    avgRating: 4.8,
-    ratings: 2989,
-    price: 99.98,
-    oldPrice: 1252350.06,
-  },
-  {
-    id: '5',
-    title: "Hayat realstate for sell",
-    image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/keyboard2.jpg',
-    avgRating: 4.8,
-    ratings: 2989,
-    price: 99.98,
-    oldPrice: 124520.06,
-  },
-  {
-    id: '6',
-    title: "Realstate for sell around  Jamo",
-    image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/mouse1.jpg',
-    avgRating: 4.8,
-    ratings: 2989,
-    price: 9945234.98,
-    oldPrice: 120.06,
-  },
-  {
-    id: '7',
-    title: "Jamo realstate for rent",
-    image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/mouse2.jpg',
-    avgRating: 4.8,
-    ratings: 2989,
-    price: 9234529.98,
-    oldPrice: 120.06,
-  },
+  id: '1',
+  title: "Bole Wolosefer, apartment for rent, 3 bed rooms, Addis Ababa",
+  description: `Bole Wolosefer, apartment for rent, 3 bed rooms, Addis Ababa.
+  The apartment building is located in safe residential area and the flat has living and dinning room, kitchen, master bed room with it’s own walk-in closet and Jacuzzi bathroom, two bed rooms with common bathroom, maid room with shower, guest toilet, and garage for one car.
+  The rate is 4,000 USD per month and negotiable.`,
+  image:   require('/home/tinsae/Desktop/Betoch/assets/lellibella.jpg'),
+  images: [
+    require('/home/tinsae/Desktop/Betoch/assets/lellibella.jpg'),
+    require('/home/tinsae/Desktop/Betoch/assets/lellibella.jpg'),
+    require('/home/tinsae/Desktop/Betoch/assets/lellibella.jpg'),
+    require('/home/tinsae/Desktop/Betoch/assets/lellibella.jpg'),
+    require('/home/tinsae/Desktop/Betoch/assets/lellibella.jpg'),
+    require('/home/tinsae/Desktop/Betoch/assets/lellibella.jpg')
+   
+  ],
+  options: [
+    'For Sale',
+    'For Rent',
+    'Guest House'
+  ],
+  avgRating: 4.8,
+  ratings: 2989,
+  price: 99.98,
+  oldPrice: 120.06,
+},
+{
+  id: '2',
+  title: "Bole Wolosefer, apartment for rent, 3 bed rooms, Addis Ababa",
+  description: `Bole Wolosefer, apartment for rent, 3 bed rooms, Addis Ababa.
+  The apartment building is located in safe residential area and the flat has living and dinning room, kitchen, master bed room with it’s own walk-in closet and Jacuzzi bathroom, two bed rooms with common bathroom, maid room with shower, guest toilet, and garage for one car.
+  The rate is 4,000 USD per month and negotiable.`,
+  image: require('/home/tinsae/Desktop/Betoch/assets/lellibella.jpg'),
+  images: [
+    require('/home/tinsae/Desktop/Betoch/assets/lellibella.jpg'),
+    require('/home/tinsae/Desktop/Betoch/assets/lellibella.jpg'),
+    require('/home/tinsae/Desktop/Betoch/assets/lellibella.jpg'),
+    require('/home/tinsae/Desktop/Betoch/assets/lellibella.jpg'),
+    require('/home/tinsae/Desktop/Betoch/assets/lellibella.jpg'),
+    require('/home/tinsae/Desktop/Betoch/assets/lellibella.jpg')
+   
+  ],
+  options: [
+    'For Sale',
+    'For Rent',
+    'Guest House'
+  ],
+  avgRating: 4.8,
+  ratings: 2989,
+  price: 99.98,
+  oldPrice: 120.06,
+},
+{
+  id: '3',
+  title: "Bole Wolosefer, apartment for rent, 3 bed rooms, Addis Ababa",
+  description: `Bole Wolosefer, apartment for rent, 3 bed rooms, Addis Ababa.
+  The apartment building is located in safe residential area and the flat has living and dinning room, kitchen, master bed room with it’s own walk-in closet and Jacuzzi bathroom, two bed rooms with common bathroom, maid room with shower, guest toilet, and garage for one car.
+  The rate is 4,000 USD per month and negotiable.`,
+  image:require('/home/tinsae/Desktop/Betoch/assets/lellibella.jpg'),
+  images: [
+    require('/home/tinsae/Desktop/Betoch/assets/lellibella.jpg'),
+    require('/home/tinsae/Desktop/Betoch/assets/lellibella.jpg'),
+    require('/home/tinsae/Desktop/Betoch/assets/lellibella.jpg'),
+    require('/home/tinsae/Desktop/Betoch/assets/lellibella.jpg'),
+    require('/home/tinsae/Desktop/Betoch/assets/lellibella.jpg'),
+    require('/home/tinsae/Desktop/Betoch/assets/lellibella.jpg')
+   
+  ],
+  options: [
+    'For Sale',
+    'For Rent',
+    'Guest House'
+  ],
+  avgRating: 4.8,
+  ratings: 2989,
+  price: 99.98,
+  oldPrice: 120.06,
+}
+
 ];

@@ -1,3 +1,4 @@
+import 'react-native-gesture-handler';
 import Icon  from 'react-native-vector-icons/FontAwesome';
 import React, {type PropsWithChildren} from 'react';
 
@@ -12,31 +13,24 @@ import {
   View,
 } from 'react-native';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions, 
-} from 'react-native/Libraries/NewAppScreen';
-import HomeScreen from './src/screens/HomeScreen';
+import Navigation from './auth';
 import ProductScreen from './src/screens/ProductScreen';
-import product from './src/data/product';
+import MyDrawer from './auth/drawer';
+
+
 
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
+ 
 
   return (
 
-    <SafeAreaView>
-      {/* <HomeScreen /> */}
-      <ProductScreen product={product}/>
-    </SafeAreaView>
+   <Navigation />
+     
+     
+    
   
   );
 };
