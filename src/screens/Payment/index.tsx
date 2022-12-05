@@ -9,7 +9,7 @@ const Payment = () => {
     <View style={styles.root}>
       <Text style={styles.title}>check out total 2000000ETB</Text>
 
-      <Image style={styles.image} source={require('/home/tinsae/Desktop/Betoch/assets/lellibella.jpg')}/>
+      {/* <Image style={styles.image} source={require('/home/tinsae/Desktop/Betoch/assets/house 1.jpg')}/> */}
       <Button text={"pay with telebirr"} handler={() =>console.log("pay with telebirr")}
       />
       <Button text={"pay with Amole"}  handler={() => console.log("pay with Amole")}/>

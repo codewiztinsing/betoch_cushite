@@ -63,12 +63,12 @@ width:90%;
 
 export const StyledTextInput = styled.TextInput`
 background-color:${secondary};
-padding:15px;
+
 padding-left:55px;
 border-radius:5px;
 font-size:16px;
-height:60px;
-margin-vertical:3px;
+height:50px;
+margin-top:3px;
 margin-bottom:10px;
 color:${tertiary}
 
@@ -102,12 +102,22 @@ justify-contetn:center;
 align-items:center;
 border-radius:5px;
 margin-vertical:5px;
-height:60px;
+height:50px;
+${(props) => props.social == true && `
+background-color:${Colors.green};
+flex-direction:row;
+`
+}
 `
 
 export const ButtonText = styled.Text`
 color:${primary};
 font-size:16px;
+${(props) => props.social == true && `
+padding-horizontal:25px
+`
+}
+
 `
 
 export const MsgBox = styled.Text`
@@ -120,4 +130,28 @@ height:1px;
 widht:100%;
 background-color:${darklight};
 margin-vertical:10px;
+`
+
+export const ExtraView = styled.View`
+justify-content:center;
+flex-direction:row;
+align-items:center;
+padding:10px;
+` 
+
+export const ExtraText = styled.Text`
+justify-content:center;
+align-items:center;
+color:${tertiary};
+font-size:15px;
+` 
+
+export const TextLink = styled.TouchableOpacity`
+justify-content:center;
+align-items:center;
+`
+
+export const TextLinkContent = styled.Text`
+color:${Colors.brand};
+font-size:15px;
 `

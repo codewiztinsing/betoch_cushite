@@ -1,16 +1,21 @@
 import * as React from 'react';
+import { Button, View } from 'react-native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import Navigation from '.';
+import { NavigationContainer } from '@react-navigation/native';
+import LoginScreen from './screens/LoginScreen';
+import SignupScreen from './screens/SignupScreen';
+
+
 
 const Drawer = createDrawerNavigator();
 
-function MyDrawer() {
+export default function DrawerApp() {
   return (
-    <Drawer.Navigator>
-      <Drawer.Screen name="Landing" component={Navigation} />
-    
-    </Drawer.Navigator>
+    <NavigationContainer>
+      <Drawer.Navigator initialRouteName="Home">
+        <Drawer.Screen name="Home" component={SignupScreen} />
+        <Drawer.Screen name="Notifications" component={LoginScreen} />
+      </Drawer.Navigator>
+    </NavigationContainer>
   );
 }
-
-export default MyDrawer

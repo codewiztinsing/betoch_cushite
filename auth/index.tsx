@@ -5,6 +5,8 @@ import {createStackNavigator} from '@react-navigation/stack';
 import HomeScreen from '../src/screens/HomeScreen';
 import ProductScreen from '../src/screens/ProductScreen';
 import Payment from '../src/screens/Payment';
+import LoginScreen from './screens/LoginScreen';
+import SignupScreen from './screens/SignupScreen';
 
 
 
@@ -13,7 +15,8 @@ import Payment from '../src/screens/Payment';
      return (
        <NavigationContainer>
          <Stack.Navigator>
-       
+           <Stack.Screen name="Login" component={LoginScreen} />
+           <Stack.Screen name="Register" component={SignupScreen} />
            <Stack.Screen name="Home" component={HomeScreen} />
            <Stack.Screen name="Payment" component={Payment} />
            <Stack.Screen name="Product" component={ProductScreen} />

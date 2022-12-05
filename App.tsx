@@ -1,6 +1,7 @@
 import 'react-native-gesture-handler';
 import Icon  from 'react-native-vector-icons/FontAwesome';
-import React, {type PropsWithChildren} from 'react';
+
+import React from 'react';
 
 
 import {
@@ -14,9 +15,7 @@ import {
 } from 'react-native';
 
 import Navigation from './auth';
-import ProductScreen from './src/screens/ProductScreen';
-
-import LoginScreen from './auth/screens/LoginScreen';
+import BottomNavigation from './src/componets/BottomNavigation';
 
 
 
@@ -28,7 +27,7 @@ const App = () => {
 
   return (
 
-   <LoginScreen />
+ <BottomNavigation />
      
      
     

@@ -1,12 +1,13 @@
 import React from 'react'
 import { Image, StyleSheet, Text, View,FlatList } from 'react-native'
 import { useNavigation } from '@react-navigation/native';
-import ProductItem from '../../componets/ProductItem'
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import products from '../../data/products'
-
-const logo = require("assets/lellibella.jpg")
+import LoginScreen from '../../../auth/screens/LoginScreen';
+import SignupScreen from '../../../auth/screens/SignupScreen';
 
 function HomeScreen({navigation}) {
+    
 
     return (
         <View style = {styles.pages}>
@@ -18,7 +19,10 @@ function HomeScreen({navigation}) {
             />}
 
             />
-         
+            <View style={styles.bottomNavigation}>
+
+        
+            </View>
         </View>
     )
 }
@@ -29,6 +33,11 @@ const styles = StyleSheet.create({
         width:"100%",
         padding:10,
     },
+    bottomNavigation:{
+        width:"100%",
+        height:30,
+        marginBottom:10
+    }
     
 })
 export default HomeScreen
