@@ -19,10 +19,9 @@ export const Colors = {
 
 const {primary,secondary,tertiary,brand,darklight,green,red} = Colors;
 
-export const Container = styled.ScrollView`
+export const Container = styled.View`
 flex:1;
-padding:25px;
-padding-top:20px;
+padding:10px;
 background-color:${primary};
 `
 export const InnerContainer = styled.View`
@@ -43,7 +42,7 @@ font-size:30px;
 text-align:center;
 font-weight:bold;
 color:${brand};
-padding:10px
+padding:5px
 `
 
 
@@ -123,6 +122,7 @@ padding-horizontal:25px
 export const MsgBox = styled.Text`
 text-align:center;
 font-size:13px;
+color:${props  => props.type == 'success' ? green:red}
 `
 
 export const Line = styled.View`

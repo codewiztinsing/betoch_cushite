@@ -14,8 +14,13 @@ import SignupScreen from './screens/SignupScreen';
    export default function Navigation() {
      return (
        <NavigationContainer>
-         <Stack.Navigator>
-           <Stack.Screen name="Login" component={LoginScreen} />
+         <Stack.Navigator
+            
+         >
+           <Stack.Screen name="Login" component={LoginScreen}
+           
+           
+           />
            <Stack.Screen name="Register" component={SignupScreen} />
            <Stack.Screen name="Home" component={HomeScreen} />
            <Stack.Screen name="Payment" component={Payment} />

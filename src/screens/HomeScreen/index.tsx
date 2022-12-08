@@ -5,6 +5,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import products from '../../data/products'
 import LoginScreen from '../../../auth/screens/LoginScreen';
 import SignupScreen from '../../../auth/screens/SignupScreen';
+import ProductItem from '../../componets/ProductItem';
 
 function HomeScreen({navigation}) {
     
